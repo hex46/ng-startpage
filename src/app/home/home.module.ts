@@ -5,12 +5,14 @@ import { HomeRoutingModule } from './home-routing.module';
 import { SearchComponent } from './search/search.component';
 import { DateComponent } from './date/date.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { NavigationHomeComponent } from './navigation-home/navigation-home.component';
 
 
 @NgModule({
   declarations: [
     SearchComponent,
-    DateComponent
+    DateComponent,
+    NavigationHomeComponent
   ],
   imports: [
     CommonModule,

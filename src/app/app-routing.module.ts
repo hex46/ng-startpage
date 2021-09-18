@@ -12,12 +12,16 @@ const routes: Routes = [
     pathMatch: 'full'
   },
   {
+    path: 'json', 
+    loadChildren: () => import('./json-editor/json-editor.module').then(m => m.JsonEditorModule)
+  },
+  {
     path: 'error', 
-    loadChildren: () => import('./error/error.module')
+    loadChildren: () => import('./error/error.module').then(m => m.ErrorModule)
   },
   {
     path: '**',
-    redirectTo: "error/notfound"
+    redirectTo: 'error'
   }
 ];
 

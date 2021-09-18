@@ -1,0 +1,4 @@
+<textarea [formControl]="jsonTextareaFc" class="h-100 w-100 overflow-auto shadow"></textarea>
+<div *ngIf="jsonTextareaFc.invalid" class="alert alert-danger">
+  <ng-container *ngIf="jsonTextareaFc.errors?.json" >{{ jsonTextareaFc.errors?.json.value }}</ng-container>
+</div>
