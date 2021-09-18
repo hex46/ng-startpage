@@ -1,6 +1,25 @@
 # Ng Startpage
 
 Side project reprenant l'idée de hex46/startpage en utilisant Angular.
+Ceci est un POC qui a pour seul objectif d'utiliser Angular.
+
+## Quelques éléments 
+- Utilisation d'une approche par module
+- Utilisation d'API (Unsplash)
+- Utilisation du LocalStorage 
+
+## TODO
+- Tests avec Jasmine
+
+## Captures d'écran  
+
+![Page d'accueil](./screenshots/home.jpg)
+
+![Editeur JSON](./screenshots/json.jpg)
+
+## Crédits
+- [Image utilisée pendant la capture](https://unsplash.com/photos/8wz1Q4Q_XAg)
+- [ng-Bootstrap](https://ng-bootstrap.github.io/)
 
 # Documentation Angular
 
